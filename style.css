@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px;
+    background-color: #f4fff4;
+}
+
+h1 {
+    color: green;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+}
+.meter {
+    width: 300px;
+    height: 20px;
+    background: #ddd;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#bar {
+    height: 100%;
+    width: 0%;
+    background: green;
+    transition: 0.5s;
+}
+button {
+    background: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}

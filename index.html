@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EcoTrack AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🌱 EcoTrack AI</h1>
+    <p>Track your carbon footprint and help the environment.</p>
+
+    <h2>Carbon Footprint Calculator</h2>
+
+    <label>Car Travel (km/day):</label>
+    <input type="number" id="carKm"><br><br>
+
+    <label>Electricity Units/Month:</label>
+    <input type="number" id="electricity"><br><br>
+
+    <button onclick="calculateCarbon()">Calculate</button>
+
+    <h3 id="result"></h3>
+<p id="tip"></p>
+<div class="meter">
+    <div id="bar"></div>
+</div>
+    <script src="script.js"></script>
+    <h3 id="badge"></h3>
+</body>
+</html>
